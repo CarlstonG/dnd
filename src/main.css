@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(6,122,242);
+  background: linear-gradient(90deg, rgba(6,122,242,0.7763480392156863) 51%, rgba(3,205,197,1) 56%);
+  color: whitesmoke;
+}
+
+.Header {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 768px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+
+}
+
+.flexbox .board {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  background-color: #313131;
+  padding: 15px;
+}
+
+.flexbox .board .card {
+  padding: 15px 25px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+p {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
